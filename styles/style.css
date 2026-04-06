@@ -57,7 +57,7 @@ body {
     background-color: #C6E4D6;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .nav-container {
@@ -75,7 +75,8 @@ body {
 }
 
 .nav-title {
-    font-size: 55px;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .nav-btn {
@@ -103,12 +104,14 @@ body {
     margin: 25px 65px;
 }
 
-.piller-container {
-    display: flex;
+.piller-title {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 700;
 }
 
-.piller-title {
-    font-size: 30px;
+.piller-container {
+    display: flex;
 }
 
 .piller-box {
@@ -116,7 +119,7 @@ body {
     box-shadow: 0 0 1px 0px;
     border-radius: 10px;
     background-color: #fff;
-    height: 200px;
+    height: 220px;
     width: 250px;
     padding: 20px;
     margin-right: 20px;
@@ -127,6 +130,7 @@ body {
 }
 
 .piller-box-title {
+    padding-top: 5px;
     font-size: 16px;
     color: #0E0E0E;
     font-weight: 600;
@@ -139,4 +143,121 @@ body {
     color: #0E0E0E;
     font-weight: 400;
     line-height: 20px;
+}
+
+/* vision css styles
+==================== */
+.vision-section {
+    margin: 40px 65px;
+}
+
+.vision-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.vision-title-description {
+    opacity: 0.4;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.vision-container {
+    display: flex;
+}
+
+.vision-box {
+    margin-top: 20px;
+    box-shadow: 0 0 1px 0px;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 290px;
+    width: 378px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.vision-box img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.vision-box-title {
+    padding-top: 5px;
+    font-size: 16px;
+    color: #0E0E0E;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.vision-description {
+    opacity: 0.5;
+    font-size: 15px;
+    color: #0E0E0E;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.card-1 {
+    background-color: #d5e1f5;
+}
+
+.card-2 {
+    background-color: #c6e4d6;
+}
+
+.card-3 {
+    background-color: #f7ebcf;
+}
+
+.btn-1 {
+    padding: 10px 17px;
+    color: white;
+    background-color: #5490f5;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.btn-1:hover {
+    background-color: gold;
+    color: #0E0E0E;
+    transition: 0.5s;
+}
+
+.btn-2 {
+    padding: 10px 17px;
+    color: white;
+    background-color: #09a15c;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.btn-2:hover {
+    background-color: gold;
+    color: #0E0E0E;
+    transition: 0.5s;
+}
+
+.btn-3 {
+    padding: 10px 17px;
+    color: white;
+    background-color: #ffc239;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.btn-3:hover {
+    background-color: #006A50;
+    color: #ffff;
+    transition: 0.5s;
 }
