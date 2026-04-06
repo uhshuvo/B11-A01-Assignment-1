@@ -4,11 +4,17 @@
     font-style: normal;
 }
 
-* {
-    margin: 0;
+body {
     background-color: #F1F1F3;
 }
 
+* {
+    margin: 0;
+
+}
+
+/* navbar css styles
+===================== */
 .header-section {
     margin: 25px 65px;
 }
@@ -39,4 +45,56 @@
     background-color: #006A50;
     color: white;
     transform: scale(1.2);
+}
+
+/* navbar-hero css s styles
+===========================  */
+.nav-hero {
+    margin-top: 20px;
+    width: 1135px;
+    height: 550px;
+    display: flex;
+    background-color: #C6E4D6;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.nav-container {
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-subtitle {
+    opacity: 0.8;
+    font-size: 14px;
+    color: #0E0E0E;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.nav-title {
+    font-size: 55px;
+}
+
+.nav-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    border: none;
+    background-color: #006A50;
+}
+
+.nav-btn:hover {
+    background-color: gold;
+    color: #0E0E0E;
+    transition: 0.5s;
+}
+
+.nav-img {
+    margin-right: 30px;
 }
