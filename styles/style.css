@@ -88,6 +88,7 @@ body {
     border-radius: 3px;
     border: none;
     background-color: #006A50;
+    cursor: pointer;
 }
 
 .nav-btn:hover {
@@ -222,6 +223,7 @@ body {
     border-radius: 5px;
     font-weight: 600;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .btn-1:hover {
@@ -238,6 +240,7 @@ body {
     border-radius: 5px;
     font-weight: 600;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .btn-2:hover {
@@ -254,6 +257,7 @@ body {
     border-radius: 5px;
     font-weight: 600;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .btn-3:hover {
