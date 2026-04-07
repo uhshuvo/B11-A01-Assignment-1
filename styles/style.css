@@ -592,3 +592,35 @@ input[type="email"] {
     color: #0E0E0E;
     font-weight: 400;
 }
+
+/* footer styles 
+================= */
+.footer-section {
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title {
+    font-size: 20px;
+    color: #0E0E0E;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 1px solid rgb(237, 237, 237);
+    width: 780px;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.icon-container i {
+    font-size: 20px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
