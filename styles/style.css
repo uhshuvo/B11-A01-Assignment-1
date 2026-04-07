@@ -509,3 +509,86 @@ tr>td {
     color: #0E0E0E;
     padding: 30px;
 }
+
+input[type="text"] {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 20px;
+    text-align: center;
+    padding: 12px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+}
+
+/* newsletter styles
+==================== */
+.newsletter-section {
+    margin: 40px 65px;
+    border-radius: 5px;
+    background-color: #c6e4d6;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.newsletter-container {
+    text-align: center;
+}
+
+.newsletter-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.newsletter-description {
+    opacity: 0.5;
+    font-size: 13px;
+    color: #0E0E0E;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="email"] {
+    text-align: center;
+    width: 50%;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    padding: 10px;
+    border: none;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.submit {
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    background-color: #006A50;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: gold;
+    color: #0E0E0E;
+    transition: 0.5s;
+}
+
+.form-slogan {
+    margin-top: 10px;
+    opacity: 0.5;
+    font-size: 14px;
+    color: #0E0E0E;
+    font-weight: 400;
+}
