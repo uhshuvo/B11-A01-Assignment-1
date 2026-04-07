@@ -305,3 +305,146 @@ body {
     font-size: 15px;
 
 }
+
+/* opinion styles
+================= */
+
+.opinion-section {
+    margin: 40px 65px;
+}
+
+.opinion-title {
+    font-size: 30px;
+    color: #0E0E0E;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.opinion-box {
+    height: 250px;
+    box-shadow: 0 0 1px 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+table {
+    width: 1090px;
+    border-collapse: collapse;
+}
+
+tr>th {
+    background-color: #c6e4d6;
+    padding: 10px 20px;
+}
+
+tr>td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.question {
+    text-align: left;
+}
+
+.table-question {
+    font-size: 16px;
+    color: #0E0E0E;
+    font-weight: 500;
+}
+
+.dropdown-container {
+    text-align: center;
+}
+
+.dropdown-box {
+    padding: 8px 10px;
+    background-color: #c6e4d6;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #0E0E0E;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid;
+}
+
+/* news styles 
+=============== */
+.news-section {
+    margin: 40px 65px;
+}
+
+.news-headline {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #0E0E0E;
+    font-weight: 700;
+}
+
+.news-description {
+    opacity: 0.5;
+    font-size: 14px;
+    color: #0E0E0E;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.news-container {
+    /* height: 250px; */
+    box-shadow: 0 0 1px 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.news-container img {
+    border-radius: 10px;
+}
+
+.common-btn {
+    padding: 10px 17px;
+    color: white;
+    background-color: #006A50;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.common-btn:hover {
+    border: 1px solid;
+    color: #0E0E0E;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.news-card-title {
+    opacity: 0.9;
+    font-size: 30px;
+    color: #0E0E0E;
+    margin-bottom: 10px;
+}
+
+.time-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    color: #0E0E0E;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+}
+
+.news-card-description {
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
